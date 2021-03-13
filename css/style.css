@@ -1,0 +1,48 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.desktop {
+  flex: 1;
+  background-image: url(../img/background-windows.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.menu {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-left {
+  display: flex;
+}
+
+.menu-icon {
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+.menu-icon:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.menu-cortana {
+  width: 344px;
+  background-color: #444;
+  color: #999;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.menu-cortana-circle {
+  width: 27px;
+  height: 27px;
+  border-radius: 27px;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 3px #fff3;
+}
