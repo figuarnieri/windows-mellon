@@ -46,3 +46,15 @@
   border: 5px solid #fff;
   box-shadow: 0 0 0 3px #fff3;
 }
+.menu-right {
+  display: flex;
+  align-items: center;
+}
+.menu-right-spacing {
+  margin: 0 12px;
+}
+.menu-date {
+  font-family: Arial;
+  font-size: 13px;
+  text-align: center;
+}
